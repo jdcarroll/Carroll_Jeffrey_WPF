@@ -1,16 +1,16 @@
-This is my first commit
-
-Jessica is cool!
-
-Debbie is Awesome!!!
-
-Alex is Awesome!!!!
 
 <html>
 <head>
-	<title>Test</title>
+	<title>My First Commit</title>
 </head>
-<body>
+	<body>
+		This is my first commit
 
-</body>
+		Jessica is cool!
+
+		Debbie is Awesome!!!
+
+		Alex is Awesome!!!!
+
+	</body>
 </html>

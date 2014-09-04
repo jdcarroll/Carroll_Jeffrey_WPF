@@ -1,0 +1,3 @@
+A cat, a parrot and a bag of seed
+
+A man finds himself on a riverbank with a cat, a parrot and a bag of seed. He needs to transport all three to the other side of the river in his boat. However, the boat has room for only the man himself and one other item (either the cat, parrot or seed). In his absence, the cat could eat the parrot, and the parrot would eat the bag of seed. Show how he can get all the passengers to the other side, without leaving the wrong ones alone together.

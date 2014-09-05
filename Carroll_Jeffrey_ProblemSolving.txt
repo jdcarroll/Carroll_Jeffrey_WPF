@@ -60,5 +60,17 @@ Break apart the problem
 
 	What are the Constraints?
 		The constraints are the way she is counting and the order in which she is counting
-		1, the pointer finger 2, middle finder 3, ring finger 4, and pinky finger 5. Then with the reverse direction, calling the ring finger 6, middle finger 7, pointer finger 8 and thumb 9,
+		1, the pointer finger 2, middle finder 3, ring finger 4, and pinky finger 5. Then 		with the reverse direction, calling the ring finger 6, middle finger 7, pointer 		finger 8 and thumb 9,
+	What are the sub goals?
+		The one sub goal here is keeping track of the count
+
+Solution
+	luckly for this situation there is a formala that you can follow to find the answers here.
+	8n +1 
+	8 divided the count number + what ever remainder you have left
 	
+	a) 8 / 10 8 goes into 10 with a remainder of 2 so...
+		8 x 1 +2 = 10 if you end on your thumb count two from your thumb and you get your middle finger
+	b) 8 / 100 = 12.5 (8 x 12 = 96) 100 - 96 = 4 Your remainder is 4
+		8 x 12 + 4 = 100 Start at your thumb and count over 4 you end on your pinky
+	c) 8 / 1000 = 125 exactly which means there is no ramainder and you end on your thumb.

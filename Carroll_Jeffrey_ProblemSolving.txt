@@ -41,6 +41,17 @@ One matching pair
 
 The solution for the sock in the dark riddle is simple. The first thing it's asking is the least amount of times one would have to pull out a sock to guarantee a matching pair. With this constraint the answer is 4 socks.. There are total number 3 different kinds of socks so anything over that number would produce a duplicate sock creating a pair.
 
-one matching pair of each color.
+One matching pair of each color.
 
 The answer here is 18. The question here is saying least number you would need to pull to get one pair of every kind.  It is 18 because there are 10 black socks which theoretically you could pull all at one time, 6 brown socks that you could also theoretically you could pull all at one time, leaving you at 16 and 4 pairs of white socks meaning theoretically if your circumstances were such that this did happen all that is left is whit so you would have to pull only 2.
+
+Predicting Fingers
+
+A little girl counts using the fingers of her left hand as follows: She starts by calling her thumb 1, the first finger 2, middle finder 3, ring finger 4, and little finger 5. Then she reverses direction, calling the ring finger 6, middle finger 7, first finger 8 and thumb 9, after which she calls her first finger 10 and so on. If she continues to count in this manner, on which finger will she stop?
+	a) What if the girl counts from 1 to 10 
+	b) What if the girl counts from 1 to 100 
+	c) What if the girl counts from 1 to 1000
+	
+Define The Problem
+
+The problem is what fingers do they land on under specific constraints like counting from 1 to 10, 1 to 100, and 1 to 1000.

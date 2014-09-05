@@ -55,3 +55,10 @@ A little girl counts using the fingers of her left hand as follows: She starts b
 Define The Problem
 
 The problem is what fingers do they land on under specific constraints like counting from 1 to 10, 1 to 100, and 1 to 1000.
+
+Break apart the problem
+
+	What are the Constraints?
+		The constraints are the way she is counting and the order in which she is counting
+		1, the pointer finger 2, middle finder 3, ring finger 4, and pinky finger 5. Then with the reverse direction, calling the ring finger 6, middle finger 7, pointer finger 8 and thumb 9,
+	

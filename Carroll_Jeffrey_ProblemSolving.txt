@@ -26,7 +26,9 @@ The problem is one of prabablity.. essentailly it is asking what are the probabi
 Break apart the Problem
 
 Constraints:
-
+	5 pairs of black socks = 10 black socks
+	3 pairs of brown socks = 6 brown socks
+	2 pairs of white socks = 4 white socks
 	For situation one:
 there is no lmit to how many times you can reach in the drawer.  There is only the constraint that you reach in the least that you have to in order to get what you need. The things that you need are: At least one matching pair, and  At least one matching pair of each color.
 

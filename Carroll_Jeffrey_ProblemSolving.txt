@@ -26,11 +26,16 @@ The problem is one of prabablity.. essentailly it is asking what are the probabi
 Break apart the Problem
 
 Constraints:
+
 	For situation one:
 there is no lmit to how many times you can reach in the drawer.  There is only the constraint that you reach in the least that you have to in order to get what you need. The things that you need are: At least one matching pair, and  At least one matching pair of each color.
 
 The sub goals:
  For this poticular problem there really is only one sub goal of "reach into the drawer the least amount times." added to that though we could say that "pulling the least amount of socks" would be a another sub goal tering on the subject on another main goal.
+ 
+Solution
+
+The solution for the sock in the dark riddle is simple. The first thing it's asking is the least amount of times one would have to pull out a sock to guarantee a matching pair. with 
 
 
  

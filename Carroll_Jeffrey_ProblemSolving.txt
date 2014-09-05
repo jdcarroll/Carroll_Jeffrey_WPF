@@ -37,7 +37,6 @@ The sub goals:
  
 Solution
 
-The solution for the sock in the dark riddle is simple. The first thing it's asking is the least amount of times one would have to pull out a sock to guarantee a matching pair. with 
+one matching pair
 
-
- 
+The solution for the sock in the dark riddle is simple. The first thing it's asking is the least amount of times one would have to pull out a sock to guarantee a matching pair. With this constraint the answer is 4 socks.. There is a total number 3 different kninds of socks so anythuing over that number would produce a dupilcate sock creating a pair.

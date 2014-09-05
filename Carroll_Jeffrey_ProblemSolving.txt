@@ -18,7 +18,7 @@ b) At least one matching pair of each color.
 
 Define The Problem:
 
-The problem is one of prabablity.. essentailly it is asking what are the probabilties of these particular situations.
+The problem is one of probability. Essentially it is asking what are the probabilities of these particular situations.
 
 1) what are the chances that you pull one matching pair?
 2) what are the chances that you pull one matching color of each color?
@@ -30,16 +30,16 @@ Constraints:
 	3 pairs of brown socks = 6 brown socks
 	2 pairs of white socks = 4 white socks
 	For situation one:
-there is no lmit to how many times you can reach in the drawer.  There is only the constraint that you reach in the least that you have to in order to get what you need. The things that you need are: At least one matching pair, and  At least one matching pair of each color.
+There is no limit to how many times you can reach in the drawer.  There is only the constraint that you reach in the least that you have to in order to get what you need. The things that you need are: At least one matching pair, and at least one matching pair of each color.
 
 The sub goals:
- For this poticular problem there really is only one sub goal of "reach into the drawer the least amount times." added to that though we could say that "pulling the least amount of socks" would be a another sub goal tering on the subject on another main goal.
+ For this particular problem there really is only one sub goal of "reach into the drawer the least amount times." added to that though we could say that "pulling the least amount of socks" would be a another sub goal teetering on the subject on another main goal.
  
 Solution
 
-one matching pair
+One matching pair
 
-The solution for the sock in the dark riddle is simple. The first thing it's asking is the least amount of times one would have to pull out a sock to guarantee a matching pair. With this constraint the answer is 4 socks.. There is a total number 3 different kninds of socks so anything over that number would produce a dupilcate sock creating a pair.
+The solution for the sock in the dark riddle is simple. The first thing it's asking is the least amount of times one would have to pull out a sock to guarantee a matching pair. With this constraint the answer is 4 socks.. There are total number 3 different kinds of socks so anything over that number would produce a duplicate sock creating a pair.
 
 one matching pair of each color.
 

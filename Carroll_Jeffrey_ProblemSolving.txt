@@ -23,3 +23,8 @@ The problem is one of prabablity.. essentailly it is asking what are the probabi
 1) what are the chances that you pull one matching pair?
 2) what are the chances that you pull one matching color of each color?
 
+Break apart the Problem
+
+Constraints:
+	For situation one:
+there is no lmit to how many times you can reach in the drawer.  There is only the constraint that you reach in the least that you have to in order to get what you need. The things that you need are: At least one matching pair, and  At least one matching pair of each color.

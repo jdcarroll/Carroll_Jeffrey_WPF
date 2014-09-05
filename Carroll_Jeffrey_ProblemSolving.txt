@@ -12,3 +12,6 @@ One potential solution could be for the man to take the parrot across first.  Fo
 
 Socks in The Dark:
 
+There are 20 socks in a drawer: 5 pairs of black socks, 3 pairs of brown and 2 pairs of white. You select the socks in the dark and can check them only after a selection has been made. What is the smallest number of socks you need to select to guarantee getting the following:
+a) At least one matching pair
+b) At least one matching pair of each color.

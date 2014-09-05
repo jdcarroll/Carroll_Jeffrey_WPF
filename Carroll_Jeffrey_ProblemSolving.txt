@@ -20,8 +20,8 @@ Define The Problem:
 
 The problem is one of probability. Essentially it is asking what are the probabilities of these particular situations.
 
-1) what are the chances that you pull one matching pair?
-2) what are the chances that you pull one matching color of each color?
+1) What are the chances that you pull one matching pair?
+2) What are the chances that you pull one matching color of each color?
 
 Break apart the Problem
 

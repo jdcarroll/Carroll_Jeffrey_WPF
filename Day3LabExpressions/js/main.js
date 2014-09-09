@@ -42,7 +42,7 @@ var item = "Dog Collar";
 var salesTax = .06;
 var displayPercentage = discountPercentage * 100;
 // Calculate the Taxes
-var withOutTax = originalPrice * percentage;
+var withOutTax = (originalPrice * percentage).toFixed(2);// I found this cool function and wanted to try it.
 var withTax = (withOutTax * salesTax) + withOutTax;
 console.log("Your " + item + " was originally $" + originalPrice + " but after a " + displayPercentage + "% discount, " +
 "it is now $" + withOutTax + " without tax");

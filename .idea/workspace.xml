@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c106e8d9-e243-40c6-b54f-8b75048bb040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3LabExpressions/js/main.js" afterPath="$PROJECT_DIR$/Day3LabExpressions/js/main.js" />
-    </list>
+    <list default="true" id="c106e8d9-e243-40c6-b54f-8b75048bb040" name="Default" comment="" />
     <ignored path="Carroll_Jeffrey_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />

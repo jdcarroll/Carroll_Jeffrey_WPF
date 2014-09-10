@@ -30,7 +30,8 @@ var total = groceries[0] + groceries[1] + groceries[2] + groceries[3] + grocerie
 I see is the assumption that this array stays with 5 items in it.  Obviously for the assignment this works but for real life
  "I guess" this would be why "Loops are important"*/
 // Calculate the average the the groceries array
-var average = total / groceries.length;
+var average = total / groceries.length;// I new this function array.length from my previous job. It loops through the array
+// and writes out every item in the array
 console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " " +
     "per week");
 
@@ -42,7 +43,8 @@ var item = "Dog Collar";
 var salesTax = .06;
 var displayPercentage = discountPercentage * 100;
 // Calculate the Taxes
-var withOutTax = (originalPrice * percentage).toFixed(2);// I found this cool function and wanted to try it.
+var withOutTax = (originalPrice * percentage).toFixed(2);// I found this cool function and wanted to try it. it essentially
+// takes the connectedNumber.andRoundsToX(X) 
 var withTax = (withOutTax * salesTax) + withOutTax;
 console.log("Your " + item + " was originally $" + originalPrice + " but after a " + displayPercentage + "% discount, " +
 "it is now $" + withOutTax + " without tax");

@@ -33,7 +33,8 @@ console.log(name);
 
 var room = [prompt("length"), prompt("width")];
 
-var area = Number(room[0]) * Number(room[1]);
+var area = Number(room[0]) * Number(room[1]);// This is called casting.. it converts or verify's that a number is a
+// number or a string is a string
 
 console.log(area);
 alert(area);

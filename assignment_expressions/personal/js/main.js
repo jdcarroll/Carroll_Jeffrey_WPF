@@ -1,10 +1,12 @@
 var walkDog = prompt("How many times a day do you walk your dog"); // I am asking the user for how many times the dog
 // goes for a walk per day.
+var dogBreed = ["German Shepard", "Golden Retriever", "Husky", "belgian malinois"];
+var dogBreedPrompt = prompt("Choose your dog Breed: " + dogBreed);
 var dogAge = prompt("how old is your dog?"); //I then proceed to ask how old is your dog
 var response = walkDog * dogAge + 23; // To throw the user off and have a little fun I make it so there is no way the website
 // gives you positive feed back which only ends up helping the doggies go outside more
-console.log("You really should be walking your dog" + response + "this many times a day"); //This is where I tell the user
-// that he or she needs to walk the dog moree
+console.log("Because you have a dog breed of" + dogBreedPrompt + "You really should be walking your " +
+    "dog" + response + "this many times a day"); // This is where I tell the user that he or she needs to walk the dog more
 
 
 

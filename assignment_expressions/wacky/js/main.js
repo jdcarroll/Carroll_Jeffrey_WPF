@@ -24,11 +24,11 @@ var weak = punch / punch; // This here is a reality check if you think you are g
             "you said you would punch Mike Tyson " + punch + " times.");// here is where I respond when they say that
         // they are not sure whether they want to punch someone or not Non Violence
     }
-console.log("You may have attempted to punch Mike Tyson " + punch + " times. However the truth is you really only punched " +
+console.log("You may have attempted to punch Mike Tyson " + punch + " times. However the truth is you really only got " +
     "him " + weak + " time and he punched you " + mikeTysonPunches + " times but he only need 1 punch"); // This is the
     // overall summary of what has happened during this process
-alert("You may have attempted to punch Mike Tyson " + punch + " times. However the truth is you really only punched " +
-    "him " + weak + " time and he punched you " + mikeTysonPunches + " times but he only need 1 punch"); // This is the
+alert("You may have attempted to punch Mike Tyson " + punch + " times. However the truth is you ou really only got " + weak +
+    "him time and he punched you " + mikeTysonPunches + " times but he only need 1 punch"); // This is the
 // overall summary of what has happened during this process
 
 /* If we need to do further examples of if statements later on something that can be added here is a second if statement

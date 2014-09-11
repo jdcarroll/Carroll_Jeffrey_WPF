@@ -1,9 +1,9 @@
 var walkDog = prompt("How many times a day do you walk your dog");
-if (Number(walkDog) > 4){
-    console.log("your pup is happy!");
-} else {
-    console.log("you are a bad pet owner");
-}
+var dogAge = prompt("how old is your dog?");
+var response = walkDog * dogAge;
+console.log("You really should be waling your dog" + response + "this many times a day")
+
+
 
 
 function Name() {

@@ -1,6 +1,7 @@
 var punch = prompt("You are in a fight how many times do you want to punch your opponent?");
 var sure = prompt("Are you sure?");
 var mikeTysonPunches = punch * 10000;
+var weak = punch / punch;
     if (sure == "yes" || sure == "y"){
         alert("You are a where you are fighting Mike Tyson Right? " + "I can't believe you tried to punch Mike Tyson " + punch +
         " times.");
@@ -13,6 +14,6 @@ var mikeTysonPunches = punch * 10000;
             "you said you would punch Mike Tyson " + punch + "times.");
     }
 console.log("You may have attempted to punch Mike Tyson " + punch + " times. However the truth is you really only punched " +
-    "him 1 time and he punched you " + mikeTysonPunches + " times but he only need 1 punch");
+    "him " + weak + " time and he punched you " + mikeTysonPunches + " times but he only need 1 punch");
 alert("You may have attempted to punch Mike Tyson " + punch + " times. However the truth is you really only punched " +
-    "him 1 time and he punched you " + mikeTysonPunches + " times but he only need 1 punch");
+    "him " + weak + " time and he punched you " + mikeTysonPunches + " times but he only need 1 punch");

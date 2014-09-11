@@ -9,4 +9,4 @@ var screenSize = screenHeight * screenWidth; // This is where the actual calcula
 var imgFit = Math.round(screenSize / imgSize); // calculate the size of th image and round to the closed whole number.
 
 console.log("your Screen Size equals: " + screenSize + "px and you can fit " + imgFit + " copies of your image into " +
-    "your current window.");
+    "your current window."); // I am echoing out the results of the calculation to the console.

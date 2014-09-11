@@ -27,17 +27,17 @@ console.log(avengerNames[1]);
 //find out the length of an array
 console.log(avengerNames.length);
 
-var name = prompt("What is your name");
+var name = prompt("What is your name"); // This is an example a prompt. a way that the
 
-console.log(name);
+console.log(name); // I am printing out the user input
 
-var room = [prompt("length"), prompt("width")];
+var room = [prompt("length"), prompt("width")]; // I am asking for two prompts in an array
 
 var area = Number(room[0]) * Number(room[1]);// This is called casting.. it converts or verify's that a number is a
 // number or a string is a string
 
-console.log(area);
-alert(area);
+console.log(area); // I am printing out to the console
+alert(area); // I am printing out to an alert box
 
 
 

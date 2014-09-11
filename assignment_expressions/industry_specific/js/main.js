@@ -8,10 +8,10 @@ var across = screenWidth / imgWidth;// I am attempting to calculate how many tim
 
 var screenHeight = window.innerHeight;// This the height of the window not the screen size of the monitor.
 
-var down = screenHeight / imgHeight; 
+var down = screenHeight / imgHeight;// Im attempting to calculate how many times the image goes down the screen
+
 var screenSize = screenHeight * screenWidth; // This is where the actual calculation happens.
 
-var imgFit = Math.round(screenSize / imgSize); // calculate the size of th image and round to the closed whole number.
-
-console.log("your Screen Size equals: " + screenSize + "px and you can fit " + imgFit + " copies of your image into " +
-    "your current window."); // I am echoing out the results of the calculation to the console.
+console.log("your Screen Size equals: " + screenSize + "px and you can fit the image across the " +
+    "screen " + across + " amount of times.  You can fit the img down the screen " + down + " amount of times");
+    /* I am echoing out the results of the calculation to the console.*/

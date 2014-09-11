@@ -1,4 +1,4 @@
-var imgSize = prompt("How many pixels are in you img?");
+var imgSize = prompt("How many pixels are in you img?"); // I am asking the user for the size of the image
 var screenWidth = window.innerWidth;
 var screenHeight = window.innerHeight;
 var screenSize = screenHeight * screenWidth;

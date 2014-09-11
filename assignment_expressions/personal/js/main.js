@@ -1,3 +1,5 @@
+// Assignment Expressions by Jeff Carroll on 9-10-14
+
 var walkDog = prompt("How many times a day do you walk your dog"); // I am asking the user for how many times the dog
 // goes for a walk per day.
 var dogBreed = ["German Shepard", "Golden Retriever", "Husky", "belgian malinois"];

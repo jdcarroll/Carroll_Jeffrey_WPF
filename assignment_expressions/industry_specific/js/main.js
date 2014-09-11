@@ -1,3 +1,5 @@
+// Assignment Expressions by Jeff Carroll on 9-10-14
+
 var imgHeight = Number(prompt("What is the height of your image?")); // I am asking the user for the height of the image.
 
 var imgWidth = Number(prompt("What is the width of your image?")); // I am asking for the width of the image

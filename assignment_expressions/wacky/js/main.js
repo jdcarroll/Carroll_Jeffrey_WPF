@@ -37,3 +37,5 @@ alert("You may have attempted to punch Mike Tyson " + punch + " times. However t
 
 /* If we need to do further examples of if statements later on something that can be added here is a second if statement
 using logic to calculate "No" on the sure variable or "I don't want to fight" */
+
+this =>

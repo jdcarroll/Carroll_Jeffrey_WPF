@@ -6,6 +6,15 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-
+    <!-- Value of temperature -->
+        <p>What temperature is it right now? (Please put only the number value)</p>
+        <label for="temp">Temperature</label><input type="text" id="temp" name="temp">
+    <!-- Type of temperature -->
+        <p>What type of temperature would you like to convert to?</p>
+        <input type="radio" id="F" name="fahrenheit"> <label for="F">Fahrenheit</label>
+        <input type="radio" id="C" name="Celsius"> <label for="C">Celsius</label>
+    <!-- input for submission -->
+        <input type="button" onclick="Temp()" value="Submit Conversion">
+    <script src="js/main.js"></script>
 </body>
 </html>

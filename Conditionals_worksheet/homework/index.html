@@ -6,7 +6,9 @@
     <script src="js/main.js"></script>
 </head>
 <body>
+<hr>
     <!-- Value of temperature -->
+        <h1>Temperature</h1>
         <p>What temperature is it right now? (Please put only the number value)</p>
         <label for="temp">Temperature</label> <input type="text" id="temp" value="32">
     <!-- Type of temperature -->
@@ -15,6 +17,30 @@
         <input type="radio" id="C" name="Temperature"> <label for="C">Celsius</label>
     <!-- input for submission --><br><br>
         <input type="button" onclick="Temp()" value="Submit Conversion">
+<hr>
+    <!-- Login To Website -->
+        <H1>Login</H1>
+        <label for="userName">User Name: </label><input type="text" id="userName">
+        <br><br>
+        <label for="userPassword">Password: </label><input type="password" id="userPassword">
+        <br><br>
+        <input type="button" onclick="login()" value="Login">
+        <br><br>
+        <div id="message"></div>
+        <br>
+<hr>
+    <!-- Check Your Tire Pressure -->
+        <h1>Check Your Tire Pressure</h1>
+        <label for="tired">Tire Driver: </label><input type="text" id="tired">
+        <label for="tirep">Tire Passenger: </label><input type="text" id="tirep">
+        <label for="tirerd">Tire Rear Driver: </label><input type="text" id="tirerd">
+        <label for="tirerp">Tire Rear Passenger: </label><input type="text" id="tirerp">
+        <br><br>
+        <input type="button" onclick="tire()" value="Calculate">
+        <br>
+        <div id="pressure"></div>
+        <br>
+<hr>
     <script src="js/main.js"></script>
 </body>
 </html>

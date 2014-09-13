@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c106e8d9-e243-40c6-b54f-8b75048bb040" name="Default" comment="Working with Ajax">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AJAX_test/data/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AJAX_test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AJAX_test/js/main.js" />
+    <list default="true" id="c106e8d9-e243-40c6-b54f-8b75048bb040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Carroll_Jeffrey_WPF.iws" />
@@ -323,6 +320,11 @@
       <created>1409960417400</created>
       <updated>1409960417400</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working with Ajax">
+      <created>1410633511613</created>
+      <updated>1410633511613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">

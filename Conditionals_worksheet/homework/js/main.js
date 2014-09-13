@@ -1,19 +1,17 @@
 function Temp() {
-    var temperature = Number(document.getElementById("Temp"));
-    var fahrenheit = document.getElementById("F");
-    fahrenheit.checked = true;
-    var celsius = document.getElementById("C");
-    celsius.checked = true;
+    var t = document.getElementById("temp").value;
+    var fahrenheit = document.getElementById("F").checked;
+    var celsius = document.getElementById("C").checked;
     var celsiusFromF;
 
 
     if (fahrenheit) {
         console.log("Fahrenheit!");
-        celsiusFromF = (temperature - 32)*(5/9);
-        console.log(celsiusFromF);
+        var fahrenheitFromC = (t *(5/9) + 32);
+        console.log(fahrenheitFromC);
     }else if (celsius) {
         console.log("Celsius!");
-        var fahrenheitFromC = (temperature *(5/9) + 32);
-        console.log(fahrenheitFromC);
+        celsiusFromF = (t - 32) * .56;
+        console.log(celsiusFromF);
     }
 }

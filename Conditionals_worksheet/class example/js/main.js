@@ -112,3 +112,15 @@ if ((iPadPrice < budget && paycheck > 600) || wonLottery===true) {
 }else {
     console.log("you cannot buy an ipad");
 }
+
+// Ternary Conditions
+
+var gpa = 48;
+
+if (gpa>2.0){
+    console.log("you can");
+} else {
+    console.log("you cant");
+}
+
+(gpa>2.0) ? console.log("you can") : console.log("you cant");

@@ -4,7 +4,6 @@ function Temp() {
     var celsius = document.getElementById("C").checked;
     var celsiusFromF;
 
-
     if (fahrenheit) {
         console.log("Fahrenheit!");
         var fahrenheitFromC = (t *(5/9) + 32);
@@ -22,8 +21,6 @@ function login() {
     var dataBaseUser = "superSecretUser";
     var dataBasePassword = "superSecretPassword";
 
-    console.log(userName);
-    console.log(userPassword);
     if (userName === dataBaseUser && userPassword === dataBasePassword) {
         document.getElementById("message").innerHTML = "Welcome! You Login Successfully";
     }else if (userName === dataBaseUser)  {

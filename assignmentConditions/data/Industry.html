@@ -4,9 +4,9 @@
         <br>
         <label for="bandwidth">What is you Bandwidth:</label><input type="text" id="bandwidth"><br><br>
         <label for="devices">How many devices do you have in your house:</label><input type="text" id="devices"><br><br>
-        <label for="activity">Choose activity</label>
-        <select id="activity">
-
-        </select><br><br>
-        <input type="button" onclick="calculateBandwidth()" value="Submit">
-        <script src="js/main.js"></script>
+        <label for="streamingMedia">Streaming Media</label><input type="checkbox" name="activity" id="streamingMedia">
+        <label for="internet">Internet</label><input type="checkbox" name="activity" id="internet">
+        <label for="wirelessHomeNetwork">Wireless Home Network</label><input type="checkbox" name="activity" id="wirelessHomeNetwork">
+        <br><br>
+        <input type="button" onclick="calculteBandwidth()" value="Submit">
+        <div id="update"></div>

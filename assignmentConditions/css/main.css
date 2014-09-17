@@ -8,7 +8,7 @@
     font-weight: bold;
 }
 
-td { /* */
+td { /* dictate size of the table cells */
     width: 100px;
     height: 100px;
 }

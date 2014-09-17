@@ -20,7 +20,7 @@ function clearcontenthtml() { // this function is to clear the page back to orig
     // is the local host
 }
 
-// Ajax Functions -- load industry content\
+// Ajax Functions -- load industry content
 function industry() { // this function is to load the industry page
     var request = new XMLHttpRequest(); // this object XMLHttpRequest() is the ajax object making asynchronous javascript
     // possible and puts it into a variable called request
@@ -199,6 +199,7 @@ function calculteBandwidth() { // this function gets called and is loaded on the
     }
 }
 
+// Ajax Functions -- function for wacky content
 function pick(){
     var blue = document.getElementById("blue").checked; // table element number 1
     var yellow = document.getElementById("yellow").checked; // table element number 2

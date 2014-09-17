@@ -1,4 +1,4 @@
-/*
+
 var min = prompt("Please enter a minimum number");
 var max = prompt("Please enter a Maximum number");
 
@@ -6,6 +6,7 @@ var max = prompt("Please enter a Maximum number");
 
 
 // Validate Min
+/*
 if (min === "") {
     console.log("You did not enter a number!!!");
     min = prompt("Please enter a minimum number");
@@ -14,6 +15,11 @@ if (min === "") {
 //isNAN
 if (isNaN(min) || min === ""){
     console.log("You did not enter a number!!!");
+    min = prompt("Please enter a minimum number");
+}
+*/
+
+while(isNaN(min) || min === ""){
     min = prompt("Please enter a minimum number");
 }
 
@@ -34,7 +40,7 @@ var rand = Math.round(Math.random()*(max-min)+min);
 
 console.log(rand);
 
-*/
+
 
 var num1 = 9.55567898797645376564782352521263613
 

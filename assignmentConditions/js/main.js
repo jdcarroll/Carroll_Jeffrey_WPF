@@ -141,13 +141,15 @@ function calculteBandwidth() { // this function gets called and is loaded on the
         if ((bandwidth >= smRequiredUsage) && (devices < 2)){ // determining if the bandwidth is greater than the required
         // usage and devices is under the allotted amount
             document.getElementById("update").innerHTML = "you should have no problems streaming media with:" +
-                " " + bandwidth + "Mbs. If I were you I would keep less that 2 devices streaming media at one time";         
-        } else if (bandwidth < smRequiredUsage ){
+                " " + bandwidth + "Mbs. If I were you I would keep less that 2 devices streaming media at one time"; // I
+                // am entering in this string into the div tag with the id of update. because I am using an id it does not
+                // specifically have to be a div that holds the id but in this case it is
+        } else if (bandwidth < smRequiredUsage ){ // I am checking 
             //
-            document.getElementById("update").innerHTML = "you should have at least " + smrequiredUsage + "mbs if you want " +
+            document.getElementById("update").innerHTML = "you should have at least " + smRequiredUsage + "mbs if you want " +
                 "uninterrupted service"
         } else {
-            document.getElementById("update").innerHTML = ""
+            document.getElementById("update").innerHTML = "You are missing the required fields"
         }
     }else if ((internet) && (streamingMedia === false) && (wirelessHomeNetwork === false)) { // I am determining specifically if
         // only internet is checked
@@ -156,10 +158,10 @@ function calculteBandwidth() { // this function gets called and is loaded on the
             document.getElementById("update").innerHTML = "you should have no problems surfing the internet with:" +
                 " " + bandwidth + "Mbs. If I were you I would keep less that 3 devices running at one time";
         } else if (bandwidth < inRequiredUsage ){
-            document.getElementById("update").innerHTML = "you should have at least " + smrequiredUsage + "mbs if you want " +
+            document.getElementById("update").innerHTML = "you should have at least " + inRequiredUsage + "mbs if you want " +
                 "uninterrupted service"
         } else {
-
+            document.getElementById("update").innerHTML = "You are missing the required fields"
         }
     }else if ((wirelessHomeNetwork) && (internet === false) && (streamingMedia === false)){ // I am determining specifically if
         // only wirelessHomeNetwork is checked
@@ -169,10 +171,11 @@ function calculteBandwidth() { // this function gets called and is loaded on the
                 " " + bandwidth + "Mbs. Because you are only running a home network there is no limit to how many devices" +
                 " you can have.";
         } else if (bandwidth < whnRequiredUsage ){
-            document.getElementById("update").innerHTML = "you should have at least " + smrequiredUsage + "mbs if you want " +
+            document.getElementById("update").innerHTML = "you should have at least " + whnRequiredUsage + "mbs if you want " +
                 "uninterrupted service"
         } else {
-
+            //fail safe
+            document.getElementById("update").innerHTML = "You are missing the required fields"
         }
     }
 }

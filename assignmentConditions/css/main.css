@@ -9,11 +9,20 @@
 }
 
 td {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
-.1 {
-    background-color: #940DFF;
+.cell1 {
+    background-color: #0C7FE8;
+}
+.cell2 {
+    background-color: #F8FC94;
+}
+.cell3 {
+    background-color: #FF1600;
 }
 
+#purple {
+    text-decoration: none;
+}

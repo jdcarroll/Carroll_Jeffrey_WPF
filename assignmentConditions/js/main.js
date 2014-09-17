@@ -192,12 +192,33 @@ function calculteBandwidth() { // this function gets called and is loaded on the
     }
 }
 
-function colorPicker(){
-    var blue;
-    var sky;
-    var green;
-    var yellow;
-    var orange;
+function pick(){
+    var blue = document.getElementById("blue").checked; // table element number 1
+    var yellow = document.getElementById("yellow").checked; // table element number 2
+    var red = document.getElementById("red").checked; // table element number 3
+    var colors = [ blue, yellow, red]; // Array of colors
+
+    // primary colors
+    if (( colors[0] === true ) && (colors[1] === false ) && (colors[2] === false)) { // blue logic
+        document.getElementById("update").innerHTML = "You picked blue try mixing some colors"; // blue
+    } else if (( colors[0] === false ) && (colors[1] === true ) && (colors[2] === false)){ // yellow logic
+        document.getElementById("update").innerHTML = "You picked yellow try mixing some colors"; // yellow
+    } else if (( colors[0] === false ) && (colors[1] === false ) && (colors[2] === true)){ // red logic
+        document.getElementById("update").innerHTML = "You picked red try mixing some colors"; // red
+    } // end primary colors
+
+    // secondary colors
+    if (( colors[0] === true ) && (colors[1] === true ) && (colors[2] === false)) { // green logic
+        document.getElementById("update").innerHTML = "You mixed blue and yellow to make green"; // green
+    } else if (( colors[0] === false ) && (colors[1] === true ) && (colors[2] === true)){ // orange logic
+        document.getElementById("update").innerHTML = "You mixed yellow and red to make orange"; // orange
+    } else if (( colors[0] === true ) && (colors[1] === false ) && (colors[2] === true)){ // purple logic
+        document.getElementById("update").innerHTML = "You mixed blue and red to make purple"; // purple
+    } else if (( colors[0] === true ) && (colors[1] === true ) && (colors[2] === true)){ // purple logic
+        document.getElementById("update").innerHTML = "You mixed all the colors to make brown"; // purple
+    } else if  (( colors[0] === false ) && (colors[1] === false ) && (colors[2] === false)){
+        document.getElementById("update").innerHTML = "please pick some colors"; // no picking of any colors
+    }
+    // end secondary colors
+
 }
-
-

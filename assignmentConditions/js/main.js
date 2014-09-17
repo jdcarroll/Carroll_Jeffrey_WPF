@@ -19,7 +19,7 @@ function clearcontenthtml() { // this function is to clear the page back to orig
     request.send(); // This is the command that then sends everything back to the browser from the server in this case it
     // is the local host
 }
-
+// Ajax Functions -- load industry content
 function industry() { // this function is to load the industry page
     var request = new XMLHttpRequest(); // this object XMLHttpRequest() is the ajax object making asynchronous javascript
     // possible and puts it into a variable called request

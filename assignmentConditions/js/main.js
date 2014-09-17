@@ -144,29 +144,36 @@ function calculteBandwidth() { // this function gets called and is loaded on the
                 " " + bandwidth + "Mbs. If I were you I would keep less that 2 devices streaming media at one time"; // I
                 // am entering in this string into the div tag with the id of update. because I am using an id it does not
                 // specifically have to be a div that holds the id but in this case it is
-        } else if (bandwidth < smRequiredUsage ){ // I am checking 
-            //
+        } else if (bandwidth < smRequiredUsage ){ // I am checking that if bandwidth is greater than smRequiredUsage and if
+            // it is than I change the string
             document.getElementById("update").innerHTML = "you should have at least " + smRequiredUsage + "mbs if you want " +
-                "uninterrupted service"
+                "uninterrupted service" // updated string
         } else {
-            document.getElementById("update").innerHTML = "You are missing the required fields"
+            document.getElementById("update").innerHTML = "You are missing the required fields" // This is the final else
+            // statement that says you are missing required fields
         }
     }else if ((internet) && (streamingMedia === false) && (wirelessHomeNetwork === false)) { // I am determining specifically if
         // only internet is checked
         var inRequiredUsage = 10; // I am adding a constant that is the required usage based on the the if statement
-        if ((bandwidth >= inRequiredUsage) && (devices < 3)){
+        if ((bandwidth >= inRequiredUsage) && (devices < 3)){ // determining if the bandwidth is greater than the required
+            // usage and devices is under the allotted amount
             document.getElementById("update").innerHTML = "you should have no problems surfing the internet with:" +
-                " " + bandwidth + "Mbs. If I were you I would keep less that 3 devices running at one time";
-        } else if (bandwidth < inRequiredUsage ){
+                " " + bandwidth + "Mbs. If I were you I would keep less that 3 devices running at one time"; // I
+            // am entering in this string into the div tag with the id of update. because I am using an id it does not
+            // specifically have to be a div that holds the id but in this case it is
+        } else if (bandwidth < inRequiredUsage ){ // I am checking that if bandwidth is greater than inRequiredUsage and if
+            // it is than I change the string
             document.getElementById("update").innerHTML = "you should have at least " + inRequiredUsage + "mbs if you want " +
-                "uninterrupted service"
+                "uninterrupted service" // updated string
         } else {
-            document.getElementById("update").innerHTML = "You are missing the required fields"
+            document.getElementById("update").innerHTML = "You are missing the required fields"// This is the final else
+            // statement that says you are missing required fields
         }
     }else if ((wirelessHomeNetwork) && (internet === false) && (streamingMedia === false)){ // I am determining specifically if
         // only wirelessHomeNetwork is checked
         var whnRequiredUsage = 0; // I am adding a constant that is the required usage based on the the if statement
-        if (bandwidth >= whnRequiredUsage){
+        if (bandwidth >= whnRequiredUsage){ // determining if the bandwidth is greater than the required
+            // usage and because there is no limit to the amount of devices that you can have 
             document.getElementById("update").innerHTML = "you should have no problems with your internal network with:" +
                 " " + bandwidth + "Mbs. Because you are only running a home network there is no limit to how many devices" +
                 " you can have.";

@@ -7,3 +7,13 @@
     color: red;
     font-weight: bold;
 }
+
+td {
+    width: 200px;
+    height: 200px;
+}
+
+.1 {
+    background-color: #940DFF;
+}
+

@@ -1,3 +1,4 @@
+// Jeff Carroll Web Programing Fundamentals conditions assignment
 function clearcontenthtml() { // this function is to clear the page back to original clean slate before any action was taken
     var request = new XMLHttpRequest(); // this object XMLHttpRequest() is the ajax object making asynchronous javascript
     // possible and puts it into a variable called request
@@ -37,6 +38,7 @@ function industry() { // this function is to load the industry page
 }
 
 function wacky() { // this function is to load the wacky page
+    console.log("hello");
     var request = new XMLHttpRequest(); // this object XMLHttpRequest() is the ajax object making asynchronous javascript
     // possible and puts it into a variable called request
     request.open('GET', 'data/wacky.html'); // this line takes the request variable and applies the open method to it
@@ -45,9 +47,9 @@ function wacky() { // this function is to load the wacky page
         // an XMLHttpRequest 4 means success and 1 means failure.
         if ((request.readyState === 4) && (request.status === 200)) { // I am checking the readystate for success and
             // status of the request ajax object to verify that success.  If it fails it does nothing.
-            var industryContent = request.response; // I am setting the variable to of the ajax object value to then use
+            var wackyContent = request.response; // I am setting the variable to of the ajax object value to then use
             // in the document object model
-            document.getElementById("content").innerHTML = industryContent; // I am entering html into the id of the
+            document.getElementById("content").innerHTML = request.response; // I am entering html into the id of the
             // object to display on the html page
         }
     };
@@ -173,18 +175,29 @@ function calculteBandwidth() { // this function gets called and is loaded on the
         // only wirelessHomeNetwork is checked
         var whnRequiredUsage = 0; // I am adding a constant that is the required usage based on the the if statement
         if (bandwidth >= whnRequiredUsage){ // determining if the bandwidth is greater than the required
-            // usage and because there is no limit to the amount of devices that you can have 
+            // usage and because there is no limit to the amount of devices that you can have I dont bother check for this here
             document.getElementById("update").innerHTML = "you should have no problems with your internal network with:" +
                 " " + bandwidth + "Mbs. Because you are only running a home network there is no limit to how many devices" +
-                " you can have.";
-        } else if (bandwidth < whnRequiredUsage ){
+                " you can have."; // I am entering in this string into the div tag with the id of update. because I am using an
+                // id it does not specifically have to be a div that holds the id but in this case it is
+        } else if (bandwidth < whnRequiredUsage ){  // I am checking that if bandwidth is greater than whnRequiredUsage and if
+            // it is than I change the string
             document.getElementById("update").innerHTML = "you should have at least " + whnRequiredUsage + "mbs if you want " +
-                "uninterrupted service"
+                "uninterrupted service"// updated string
         } else {
-            //fail safe
-            document.getElementById("update").innerHTML = "You are missing the required fields"
+
+            document.getElementById("update").innerHTML = "You are missing the required fields" // This is the final else
+            // statement that says you are missing required fields
         }
     }
+}
+
+function colorPicker(){
+    var blue;
+    var sky;
+    var green;
+    var yellow;
+    var orange;
 }
 
 

@@ -38,7 +38,7 @@ function industry() { // this function is to load the industry page
     request.send();// This is the command that then sends everything back to the browser from the server in this case it
     // is the local host
 }
-
+// Ajax Functions -- load wacky content
 function wacky() { // this function is to load the wacky page
     console.log("hello");
     var request = new XMLHttpRequest(); // this object XMLHttpRequest() is the ajax object making asynchronous javascript

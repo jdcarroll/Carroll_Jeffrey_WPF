@@ -1,28 +1,25 @@
-.container {
+.container { /* */
     width: 900px;
     margin: 0 auto;
 }
 
-.title_main {
+.title_main { /* */
     color: red;
     font-weight: bold;
 }
 
-td {
+td { /* */
     width: 100px;
     height: 100px;
 }
 
-.cell1 {
+.cell1 { /* */
     background-color: #0C7FE8;
 }
-.cell2 {
+.cell2 { /* */
     background-color: #F8FC94;
 }
-.cell3 {
+.cell3 { /* */
     background-color: #FF1600;
 }
 
-#purple {
-    text-decoration: none;
-}

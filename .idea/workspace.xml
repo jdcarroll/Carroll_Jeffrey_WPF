@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c106e8d9-e243-40c6-b54f-8b75048bb040" name="Default" comment="" />
+    <list default="true" id="c106e8d9-e243-40c6-b54f-8b75048bb040" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignmentConditions/css/main.css" afterPath="$PROJECT_DIR$/assignmentConditions/css/main.css" />
+    </list>
     <ignored path="Carroll_Jeffrey_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignmentConditions/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="625">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#clearcontenthtml#0" expanded="false" />
                 <element signature="n#!!block;n#industry#0" expanded="false" />
@@ -71,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignmentConditions/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="625">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,8 +157,8 @@
         <option value="$PROJECT_DIR$/assignmentConditions/index.html" />
         <option value="$PROJECT_DIR$/assignmentConditions/data/Industry.html" />
         <option value="$PROJECT_DIR$/assignmentConditions/data/wacky.html" />
-        <option value="$PROJECT_DIR$/assignmentConditions/css/main.css" />
         <option value="$PROJECT_DIR$/assignmentConditions/js/main.js" />
+        <option value="$PROJECT_DIR$/assignmentConditions/css/main.css" />
       </list>
     </option>
   </component>
@@ -836,14 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignmentConditions/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignmentConditions/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="435">
@@ -862,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignmentConditions/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="625">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#clearcontenthtml#0" expanded="false" />
             <element signature="n#!!block;n#industry#0" expanded="false" />
@@ -873,6 +867,14 @@
             <element signature="n#!!block;n#calculteBandwidth#0" expanded="false" />
             <element signature="n#!!block;n#pick#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignmentConditions/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="625">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

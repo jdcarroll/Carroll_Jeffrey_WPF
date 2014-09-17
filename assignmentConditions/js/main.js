@@ -1,4 +1,6 @@
 // Jeff Carroll Web Programing Fundamentals conditions assignment
+
+// Ajax Functions -- Clear Content
 function clearcontenthtml() { // this function is to clear the page back to original clean slate before any action was taken
     var request = new XMLHttpRequest(); // this object XMLHttpRequest() is the ajax object making asynchronous javascript
     // possible and puts it into a variable called request

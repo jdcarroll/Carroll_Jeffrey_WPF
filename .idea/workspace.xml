@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c106e8d9-e243-40c6-b54f-8b75048bb040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignmentConditions/css/main.css" afterPath="$PROJECT_DIR$/assignmentConditions/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignmentConditions/js/main.js" afterPath="$PROJECT_DIR$/assignmentConditions/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignmentConditions/data/wacky.html" afterPath="$PROJECT_DIR$/assignmentConditions/data/wacky.html" />
     </list>
     <ignored path="Carroll_Jeffrey_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,14 +48,16 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignmentConditions/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8039216" vertical-offset="1053" max-vertical-offset="1710">
-              <caret line="219" column="108" selection-start-line="219" selection-start-column="108" selection-end-line="219" selection-end-column="108" />
+            <state vertical-scroll-proportion="0.096" vertical-offset="0" max-vertical-offset="625">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#clearcontenthtml#0" expanded="false" />
                 <element signature="n#!!block;n#industry#0" expanded="false" />
                 <element signature="n#!!block;n#wacky#0" expanded="false" />
                 <element signature="n#!!block;n#personal#0" expanded="false" />
                 <element signature="n#!!block;n#wattage#0" expanded="false" />
+                <element signature="n#!!block;n#calculteBandwidth#0" expanded="false" />
+                <element signature="n#!!block;n#pick#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -864,14 +864,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignmentConditions/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8039216" vertical-offset="1053" max-vertical-offset="1710">
-          <caret line="219" column="108" selection-start-line="219" selection-start-column="108" selection-end-line="219" selection-end-column="108" />
+        <state vertical-scroll-proportion="0.096" vertical-offset="0" max-vertical-offset="625">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#clearcontenthtml#0" expanded="false" />
             <element signature="n#!!block;n#industry#0" expanded="false" />
             <element signature="n#!!block;n#wacky#0" expanded="false" />
             <element signature="n#!!block;n#personal#0" expanded="false" />
             <element signature="n#!!block;n#wattage#0" expanded="false" />
+            <element signature="n#!!block;n#calculteBandwidth#0" expanded="false" />
+            <element signature="n#!!block;n#pick#0" expanded="false" />
           </folding>
         </state>
       </provider>

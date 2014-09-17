@@ -131,6 +131,7 @@ function wattage() { // this function gets called and is loaded on the personal 
 
 }
 
+// Ajax Functions -- function for industry content
 function calculteBandwidth() { // this function gets called and is loaded on the industry page
     var bandwidth = document.getElementById("bandwidth").value; // I am searching an id of bandwidth and storing its
     // value into a variable called bandwidth

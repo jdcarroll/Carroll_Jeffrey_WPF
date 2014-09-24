@@ -71,7 +71,7 @@ function personal() { // this function is to load the personal page
         // an XMLHttpRequest 4 means success and 1 means failure.
         if ((request.readyState === 4) && (request.status === 200)) { // I am checking the readystate for success and
             // status of the request ajax object to verify that success.  If it fails it does nothing.
-            var personalContent = request.response; // I am setting the variable to of the ajax object value to then use
+            personalContent = request.response; // I am setting the variable to of the ajax object value to then use
             // in the document object model
             document.getElementById("content").innerHTML = personalContent; // I am entering html into the id of the
             // object to display on the html page
@@ -95,7 +95,7 @@ function wattage() { // this function gets called and is loaded on the personal 
     if (watts == ""){ // I am evaluating to make sure that watts was not left blank
         if ((amps != "") && (volts != "")){ // if watts was left blank then I calculate whether or not the other two were
         // left blank
-            var result = amps * volts; // if they were not left blank I solve for watts
+             result = amps * volts; // if they were not left blank I solve for watts
             document.getElementById("update").innerHTML = "Your wattage calculation: " + result.toFixed(2); // I enter a
             // rounded answer into the update id of the DOM
         }else {
@@ -107,7 +107,7 @@ function wattage() { // this function gets called and is loaded on the personal 
     if (amps == "") { // I am evaluating to make sure that amps was not left blank
         if ((watts != "") && (volts != "")) { // if amps was left blank then I calculate whether or not the other two were
             // left blank
-            var result = watts / volts; // if they were not left blank I solve for amps
+            result = watts / volts; // if they were not left blank I solve for amps
             document.getElementById("update").innerHTML = "Your amps calculation: " + result.toFixed(2); // I enter a
             // rounded answer into the update id of the DOM
         } else {

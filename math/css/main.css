@@ -1,0 +1,12 @@
+
+
+.container {
+    border-radius: 10px 10px 10px 10px ;
+    font-family: helvetica;
+    padding: 10px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    width: 900px;
+    margin: 0 auto;
+}
+

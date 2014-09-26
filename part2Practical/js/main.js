@@ -20,11 +20,11 @@ while ((discount < 0) || (discount > 100)){
 
 function dicountedPrice(c,d) {
     var price = c*(d/100);
-    console.log("The cost of your item was $" + cost + " the discount of that item was $" + discount + " leaving the" +
-        " discounted price to be $" + price);
+
     return price;
 
 }
 
-dicountedPrice(cost, discount);
-
+var result = dicountedPrice(cost, discount);
+console.log("The cost of your item was $" + cost + " the discount of that item was $" + discount + " leaving the" +
+    " discounted price to be $" + result);

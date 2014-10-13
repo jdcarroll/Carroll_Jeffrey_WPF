@@ -1,0 +1,19 @@
+/***************************************
+ **Created by Jeff Carroll on 9/27/14.**
+ ***************************************/
+
+body {
+    background: #EAE3CB;
+}
+
+ul {
+    margin: 0 auto;
+    margin-top:50px;
+    padding: 0;
+    width: 320px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}

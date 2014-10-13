@@ -1,0 +1,8 @@
+p {
+    font-family: helvetica;
+    color: blue;
+}
+
+#canvas1 {
+    border: dotted black;
+}
